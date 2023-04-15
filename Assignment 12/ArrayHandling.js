@@ -77,20 +77,31 @@
 // console.log(arr);
 // 10. Write a js program to delete an element from an array at specified position.
 // let arr=[48,125,659,15,56,14,70]
-// // to delete an element from an arry put index number and number of next element to remove
+// to delete an element from an arry put index number and number of next element to remove
 // arr.splice(1,3)                 //to remove 125, 659, and 15
 // console.log(arr);
 
 
 // 11. Write a js program to count frequency of each element in an array.
 
-// 12. Write a js program to print all unique elements in the array.
 
+
+// 12. Write a js program to print all unique elements in the array.
+// let arr=[1,1,2,3,4,4,5,5]
+// let uniqueElement= arr.filter(( item, index, array)=>{
+//     return arr.indexOf(item)=== index
+// })
+// console.log(uniqueElement);
 // 13. Write a js program to count total number of duplicate elements in an array.
 
 // 14. Write a js program to delete all duplicate elements from an array.
 
 // 15. Write a js program to merge two array to third array.
+
+// let arr1=[1,2,3,4,5];
+// let arr2=[6,7,8,9,10]
+// let mergedArr=arr1.concat(arr2)
+// console.log(mergedArr);
 
 // 16. Write a js program to find reverse of an array.
 
@@ -114,14 +125,49 @@
 
 // 18. Write a js program to search an element in an array.
 
-let regNum=[ 428,649,135,034,761]
-// let suppose we has to search a specfic number
-console.log(regNum.find(element => element >700));
-
 // 19. Write a js program to sort array elements in ascending or descending order.
 
-// 20. Write a js program to sort even and odd elements of array separately.
+// let arr=[48,125,659,15,56,14,70]
+// for ascending order
 
+// for (let j = 0; j < arr.length; j++) {
+//     for (let i = 0; i <= arr.length + 1; i++) {
+//         if (arr[i] < arr[i + 1]) {
+//            let temp = arr[i]
+//             arr[i] = arr[i + 1]
+//             arr[i + 1] = temp
+//         }
+//     }
+// }
+// console.log(arr);
+
+
+// // for descending order
+
+// for (let j = 0; j < arr.length; j++) {
+//     for (let i = 0; i <= arr.length + 1; i++) {
+//         if (arr[i] > arr[i + 1]) {
+//            let temp = arr[i]
+//             arr[i] = arr[i + 1]
+//             arr[i + 1] = temp
+//         }
+//     }
+// }
+// console.log(arr);
+
+// 20. Write a js program to sort even and odd elements of array separately.
+// let arr=[48,125,659,15,56,14,70]
+// let totEvenNum=[]
+// let totOddNum=[]
+// for( let i=0; i<arr.length; i++){
+
+//     if( arr[i]%2 == 0){
+//         totEvenNum.push(arr[i])
+//     } else { totOddNum.push(arr[i])}
+// }
+// console.log(totEvenNum, 'are Even numbers in above array');
+// console.log(totOddNum, 'are Odd numbers in above array');
 // 21. Write a js program to left rotate an array.
 
 // 22. Write a js program to right rotate an array.
+
