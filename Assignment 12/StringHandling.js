@@ -11,7 +11,12 @@
 // 4. Write a js program to compare two strings.
 
 // 5. Write a js program to convert lowercase string to uppercase.
+// let string= "HAMAD"
+// console.log(string.toLowerCase());
+
 // 6. Write a js program to convert uppercase string to lowercase.
+//let string="hamad"
+//console.log(string.toUpperCase());
 
 // 7. Write a js program to toggle case of each character of a string.
 
@@ -23,11 +28,15 @@
 
 // 11. Write a js program to find reverse of a string.
 
+
 // 12. Write a js program to check whether a string is palindrome or not.
 
 // 13. Write a js program to reverse order of words in a given string
 
 // 14. Write a js program to find first occurrence of a character in a given string.
+// let string= "Web Development"
+// let occurenceOfE=string.indexOf("e")
+// console.log(occurenceOfE); // Output will be 1
 
 // 15. Write a js program to find last occurrence of a character in a given string.
 
