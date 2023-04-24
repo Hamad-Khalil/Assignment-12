@@ -56,21 +56,19 @@
 // 19. Write a js program to find lowest frequency character in a string.
 
 // 20. Write a js program to count frequency of each character in a string.
-let string="Hello World"
 
-
-function findFreq(str){
-    let counter={}
-    for( let i=0; i<str.lenght; i++){
-        let char= str.charAt(i)
-        if(!counter[char]){
-            counter[char]=1
-        }else{ counter[char]++}
-    }
-    return counter
-}
-  let charFreq=console.log(findFreq(string));
-  console.log(charFreq);
+// let string="Hello World"
+// function findFreq(str){
+//     let counter={}
+//     for( let i=0; i<str.length; i++){
+//         let char= str.charAt(i)
+//         if(!counter[char]){
+//             counter[char]=1
+//         }else{ counter[char]++}
+//     }
+//     return counter
+// }
+// console.log(findFreq(string));
 
 // 21. Write a js program to remove first occurrence of a character from string.
 // let string="Welcome to Pakistan" 
@@ -79,6 +77,10 @@ function findFreq(str){
 // console.log(updatedStr);
 
 // 22. Write a js program to remove last occurrence of a character from string.
+
+// let str="Hello World"  // to remove last occurrence of "o" from the string
+// let lastIndexOfChar= str.lastIndexOf("o")
+// console.log(lastIndexOfChar.replace("o",""));
 
 // 23. Write a js program to remove all occurrences of a character from string.
 
@@ -92,6 +94,7 @@ function findFreq(str){
 
 // 26. Write a js program to replace last occurrence of a character with another in a string.
 
+let str= "H"
 // 27. Write a js program to replace all occurrences of a character with another in a string.
 // let str="My name is Hamad Khalil" // to replace "a" with "e"
 // let newStr= str.replaceAll("a", "e")
