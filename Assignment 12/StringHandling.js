@@ -2,7 +2,9 @@
 // let string="Hamad Khalil"
 // console.log(string.length);
 // 2. Write a js program to copy one string to another string.
-
+// let str="My name is Hamad Khalil"
+// let otherStr=str
+// console.log(otherStr);
 // 3. Write a js program to concatenate two strings.
 // let name= "Hamad"
 // let fatherName=" Khalil"
@@ -29,7 +31,6 @@
 
 // 11. Write a js program to find reverse of a string.
 
-
 // 12. Write a js program to check whether a string is palindrome or not.
 
 // 13. Write a js program to reverse order of words in a given string
@@ -55,6 +56,21 @@
 // 19. Write a js program to find lowest frequency character in a string.
 
 // 20. Write a js program to count frequency of each character in a string.
+let string="Hello World"
+
+
+function findFreq(str){
+    let counter={}
+    for( let i=0; i<str.lenght; i++){
+        let char= str.charAt(i)
+        if(!counter[char]){
+            counter[char]=1
+        }else{ counter[char]++}
+    }
+    return counter
+}
+  let charFreq=console.log(findFreq(string));
+  console.log(charFreq);
 
 // 21. Write a js program to remove first occurrence of a character from string.
 // let string="Welcome to Pakistan" 
@@ -92,7 +108,6 @@
 // console.log(strInLowerCase.lastIndexOf(" is "));
 
 // 30. Write a js program to search all occurrences of a word in given string.
-
 // 31. Write a js program to count occurrences of a word in a given string.
 // let str= "This is a book. It is my book"
 // let strInLowerCase= str.toLowerCase()
@@ -102,7 +117,7 @@
 
 
 // 32. Write a js program to remove first occurrence of a word from string.
-// let str="This is a book. It is my book" // to find first occurance of "is"
+
 
 // 33. Write a js program to remove last occurrence of a word in given string.
 // let str="My father is a lawyer. He is a nice man" 
@@ -116,7 +131,8 @@
 
 
 // 35. Write a js program to trim leading white space characters from given string.
-
+// let str="        a   b   c   d  e f"
+// console.log(str.trimStart());
 // 36. Write a js program to trim trailing white space characters from given string.
 
 // 37. Write a js program to trim both leading and trailing white space characters from given string.
@@ -135,7 +151,8 @@
 
 
 
-let string= "Hello World"
+
+// let string= "Hello World"
 
 // console.log(string.includes("Hello"));
 // console.log(string.startsWith("Hello"));
