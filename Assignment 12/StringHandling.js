@@ -91,10 +91,12 @@
 // 24. Write a js program to remove all repeated characters from a given string.
 
 // 25. Write a js program to replace first occurrence of a character with another in a string.
+// let str= "Hello World" // to replace first occur of "l" find its last occurr
+// let repalcedStr= str.replace("l","o")
+// console.log(repalcedStr);
 
 // 26. Write a js program to replace last occurrence of a character with another in a string.
 
-let str= "H"
 // 27. Write a js program to replace all occurrences of a character with another in a string.
 // let str="My name is Hamad Khalil" // to replace "a" with "e"
 // let newStr= str.replaceAll("a", "e")
@@ -111,17 +113,36 @@ let str= "H"
 // console.log(strInLowerCase.lastIndexOf(" is "));
 
 // 30. Write a js program to search all occurrences of a word in given string.
+// let str="This is a sample String.This is used to find word is"
+// let splitedStr= str.split(" ")
+
+
+
 // 31. Write a js program to count occurrences of a word in a given string.
 // let str= "This is a book. It is my book"
 // let strInLowerCase= str.toLowerCase()
 // let newaStr= strInLowerCase.match(/ is /g)
 // console.log(newaStr.length);
 
-
+// other Method
+// let str= "This is a book. It is my book"
+// let wordToFind= "is"
+// function findWordOcurr(str, word){
+//     let splitedStr= str.split(" ")
+//     let counter= 0
+//     for(let i= 0; i< splitedStr.length; i++){
+//         if(word== (splitedStr[i])){
+//             counter++
+//         }
+//     }
+//     return counter
+// }
+// console.log(findWordOcurr(str,wordToFind));
 
 // 32. Write a js program to remove first occurrence of a word from string.
 
-
+let str="It is a book.It is my book"  // to replace "is" with "an"
+let wordToReplace=
 // 33. Write a js program to remove last occurrence of a word in given string.
 // let str="My father is a lawyer. He is a nice man" 
 // let newStr=str.
@@ -179,6 +200,3 @@ let str= "H"
 // let newStr= string.slice(5, 11)
 // console.log(newStr)
 // console.log(string.length);
-
-
-
