@@ -14,11 +14,11 @@
 
 // 5. Write a js program to convert lowercase string to uppercase.
 // let string= "HAMAD"
-// console.log(string.toLowerCase());
+//console.log(string.toUpperCase());
 
 // 6. Write a js program to convert uppercase string to lowercase.
 //let string="hamad"
-//console.log(string.toUpperCase());
+// console.log(string.toLowerCase());
 
 // 7. Write a js program to toggle case of each character of a string.
 
@@ -26,8 +26,25 @@
 
 // 9. Write a js program to count total number of vowels and consonants in a string.
 // let string="A quick brown fox jumps over a lazy dog"
+// function findVowelsCons(str){
+//     let vowels="aeiou"
+//     let noOfVowels=0
+//     let noOfCons=0
+//     for(let i=0; i<str.length;i++){
+//         let char= str[i].toLowerCase()
+//         if(vowels.includes(char)){
+//             noOfVowels++
+//         } else if ( char>= "a" && char<= "z"){
+//             noOfCons++
+//         }
+//     } return { vowels: noOfVowels, Consonants: noOfCons}
+// }
+// console.log(findVowelsCons(string));
 
 // 10. Write a js program to count total number of words in a string.
+// let string="A quick brown fox jumps over a lazy dog"
+// let splitedStr= string.split(" ")
+// console.log(splitedStr.length);
 
 // 11. Write a js program to find reverse of a string.
 
@@ -140,9 +157,10 @@
 // console.log(findWordOcurr(str,wordToFind));
 
 // 32. Write a js program to remove first occurrence of a word from string.
+// let str="This is a book. It is my book"
+// let newStr= str.replace(" is "," " )
+// console.log(newStr);
 
-let str="It is a book.It is my book"  // to replace "is" with "an"
-let wordToReplace=
 // 33. Write a js program to remove last occurrence of a word in given string.
 // let str="My father is a lawyer. He is a nice man" 
 // let newStr=str.
@@ -152,7 +170,6 @@ let wordToReplace=
 // let str="My father is a lawyer. He is a nice man" // to remove is from given string
 // let newStr=str.replaceAll("is", "")
 // console.log(newStr);
-
 
 // 35. Write a js program to trim leading white space characters from given string.
 // let str="        a   b   c   d  e f"
