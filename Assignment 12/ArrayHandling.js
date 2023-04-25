@@ -83,6 +83,17 @@
 
 
 // 11. Write a js program to count frequency of each element in an array.
+// let arr= [1,1,22,3,22,44,44]
+// function countFreq(arr){
+//     let counter={}
+//     for( let i=0; i<arr.length; i++){
+//         if(!counter[arr[i]]){
+//             counter[arr[i]]=1
+//         }else {counter[arr[i]]++}
+//     }
+//     return counter
+// }
+// console.log(countFreq(arr));
 
 
 
@@ -95,6 +106,7 @@
 // 13. Write a js program to count total number of duplicate elements in an array.
 
 // 14. Write a js program to delete all duplicate elements from an array.
+
 
 // 15. Write a js program to merge two array to third array.
 
@@ -124,6 +136,7 @@
 // console.log(totOddNum, 'are Odd numbers in above array');
 
 // 18. Write a js program to search an element in an array.
+
 
 // 19. Write a js program to sort array elements in ascending or descending order.
 

@@ -1,16 +1,28 @@
 // 1. Write a js program to find length of a string.
 // let string="Hamad Khalil"
 // console.log(string.length);
+
 // 2. Write a js program to copy one string to another string.
 // let str="My name is Hamad Khalil"
 // let otherStr=str
 // console.log(otherStr);
+
 // 3. Write a js program to concatenate two strings.
 // let name= "Hamad"
 // let fatherName=" Khalil"
 // let fullName= name + fatherName
 // console.log(fullName);
+
 // 4. Write a js program to compare two strings.
+// let str1="Hello World"
+// let str2="Hello World"
+// function compareStr(str1,str2){
+//     if( str1==str2){
+//         console.log("Both strings are equals");
+//     } else { console.log("Both strings are not equals");}
+// }
+// compareStr( str1, str2)
+
 
 // 5. Write a js program to convert lowercase string to uppercase.
 // let string= "HAMAD"
@@ -47,10 +59,42 @@
 // console.log(splitedStr.length);
 
 // 11. Write a js program to find reverse of a string.
+// let str="Hello World"
+// function reverseStr(str){
+//     let splitStr= str.split("")
+//     let reversedStr= splitStr.reverse()
+//   let joinStr= reversedStr.join("")
+// return joinStr
+// }
+// console.log(reverseStr(str));
 
 // 12. Write a js program to check whether a string is palindrome or not.
+// let str="abba"
+// function checkPalindrom(str){
+//     let splittedStr= str.split("")
+//     let reversedStr=[...splittedStr].reverse()
+//     if( splittedStr.join("")==reversedStr.join("")){
+//         console.log("This string is Palindrom");
+//     } else console.log("This string is not Palindrom");
+// }
+// checkPalindrom(str)
+
 
 // 13. Write a js program to reverse order of words in a given string
+// let str="A quick brown fox jumps over a lazy dog"
+// let splitedStr= str.split(" ")
+// let reversedStr= [...splitedStr].reverse()
+// console.log(reversedStr.join(" "));
+
+// other method 
+// function reverseStr(str){
+//     let splitStr= str.split(" ")
+//     let reversedStr= splitStr.reverse("")
+//   let joinStr= reversedStr.join(" ")
+// return joinStr
+// }
+// console.log(reverseStr(str));
+
 
 // 14. Write a js program to find first occurrence of a character in a given string.
 // let string= "Web Development"
@@ -94,10 +138,6 @@
 // console.log(updatedStr);
 
 // 22. Write a js program to remove last occurrence of a character from string.
-
-// let str="Hello World"  // to remove last occurrence of "o" from the string
-// let lastIndexOfChar= str.lastIndexOf("o")
-// console.log(lastIndexOfChar.replace("o",""));
 
 // 23. Write a js program to remove all occurrences of a character from string.
 
