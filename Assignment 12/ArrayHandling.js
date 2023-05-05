@@ -30,10 +30,21 @@
 // console.log(Math.min(...arr), "is the minimum number");
 
 // 5. Write a js program to find second largest element in an array.
-// let arr=[48,125,659,15,56,14,70]
-// for(let i=0; i<arr.length; i++){
-
+// let arr=[14,49,235,01,24]
+// let max=0;
+// let secMax=0;
+// function findSecLargest(arr){
+//     for (let i = 0; i< arr.length; i++) {
+//         if (arr[i]>max) {
+//             secMax=max
+//             max= arr[i]
+//         } else if ( arr[i]>secMax){
+//             secMax=arr[i]
+//         }
+//     }
+//     return secMax
 // }
+// console.log(findSecLargest(arr));
 
 // 6. Write a js program to count total number of even and odd elements in an array.
 // let arr=[48,125,659,15,56,14,70]
@@ -104,6 +115,16 @@
 // })
 // console.log(uniqueElement);
 // 13. Write a js program to count total number of duplicate elements in an array.
+// let arr=[ 1,2,3,4,3,4,3,4,5,5]
+// // let array=[1,2,3,4,3,5,4,5,6,7]
+// let duplicateValues=0;
+// for(let i=0; i<arr.length; i++){
+//     if( arr[i]= arr[i]){
+//         duplicateValues= arr[i]
+//     }
+// }
+// console.log(duplicateValues);
+
 
 // 14. Write a js program to delete all duplicate elements from an array.
 
